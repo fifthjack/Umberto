@@ -1,7 +1,5 @@
-#Command to refresh Umberto
-# This involves two steps:
-#  1. convert all modified tex to pdf
-#  2. get list of card keys and titles
+#TGP 2018-01-12
+#Snippet for adding images to cards
 
 import sys
 import os
