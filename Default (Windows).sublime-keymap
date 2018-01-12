@@ -1,5 +1,5 @@
 [
-	    { "keys": ["ctrl+alt+1"], "command": "umberto_open_card" },
+	{ "keys": ["ctrl+alt+1"], "command": "umberto_open_card" },
 
         { "keys": ["ctrl+alt+3"], "command": "new_card_input" },
         { "keys": ["ctrl+alt+4"], "command": "umberto_new_card_bibtex" },
