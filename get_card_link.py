@@ -1,6 +1,6 @@
-# SHOW CARD LIST
-#
-
+# TGP 2018-01-12
+# Brings up a list of cards (pdfs)
+# User can select one, which adds a link to that card in the current .tex document.
 
 import os
 import re
