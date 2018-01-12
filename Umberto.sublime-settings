@@ -1,0 +1,25 @@
+{
+  "card_types": {
+                                "au" : "author",
+                                "id" : "idea",
+                                "ob" : "object",
+                                "tq" : "technique"
+                                },
+
+    "package_directory": {
+                                            "directory":  "C:/Users/tgp27/AppData/Roaming/Sublime Text 3/Packages/Umberto"
+                                            },
+    "card_directory": {
+                                            "directory":  "C:/Users/tgp27/Documents/Index System"
+                                        },
+    "read_directory": {
+                                            "directory":  "C:/Users/tgp27/Documents/Reading"
+                                        },
+
+    "date_format" : "%Y-%m-%d %H:%M:%S",
+    "attr": {
+                    "author": "Thomas Parton",
+                    "email": "tgp27@cam.ac.uk"
+                }
+
+}

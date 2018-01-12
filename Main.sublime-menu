@@ -1,0 +1,152 @@
+[
+    {
+        "id": "Umberto",
+        "caption": "Umberto",
+        "children":
+        [
+
+
+                {
+                    "caption" : "Projects",
+                    "id" : "umberto_proj",
+                    "children":
+                    [
+                        {
+                            "caption": "New Project",
+                            "id": "new_proj",
+                            "command": "umberto_new_project"
+                        },
+                        {
+                            "caption": "Set Current Project",
+                            "id": "set_curr_proj",
+                            "command": "umberto_set_current_project"
+
+                        }
+                    ]
+
+                },
+
+                {
+                    "caption" : "Cards",
+                    "id" : "umb_cards",
+                    "children" :
+                    [
+                        {
+                            "caption": "Open Card",
+                            "id": "umb_open_card",
+                            "command": "umberto_open_card"
+                        },
+                        {
+                            "caption": "New Card by Input",
+                            "id": "umb_new-card-by-input",
+                            "command": "new_card_input"
+
+                        },
+                        {
+                            "caption": "New Card from Bibtex",
+                            "id": "umb_new-card-bibtex",
+                            "command": "umberto_new_card_bibtex"
+
+                        }
+                        
+                    ]
+                },
+                       
+                {
+                    "caption" : "Refresh",
+                    "id" : "umb_refresh",
+                    "children" :
+                    [
+                        {
+                            "caption": "Refresh Card List",
+                            "id": "umb_refresh_card_list",
+                            "command": "umberto_refresh_card_list"
+
+                        },
+                        {
+                            "caption": "Refresh Reading List",
+                            "id": "umb_refresh_read_list",
+                            "command": "umberto_refresh_reading_list"
+
+                        },
+                    ]
+                },
+
+                 {
+                    "caption": "Links",
+                    "id": "umb_links",
+                    "children":
+                                [
+                                    {
+                                        "caption" : "Card link one-way",
+                                        "id" : "umb_card_onewaylink",
+                                        "command" : "umberto_get_card_link"
+                                    },
+                                    {
+                                        "caption" : "Card link two-way",
+                                        "id" : "umb_twowaylink",
+                                        "command" : "umberto_get_recip_card_link"
+                                    },
+                                    {
+                                        "caption": "Get Read Link",
+                                        "id": "get-card-link",
+                                        "command" : "umberto_get_read_link"
+
+                                    },
+                                ]
+                },
+
+                
+                {
+                    "caption": "Add Image",
+                    "id": "umb_add_image",
+                    "command" : "umberto_add_image"
+                },
+
+                
+
+                {
+                    "caption": "Preferences",
+                    "mnemonic": "P",
+                    "id": "umberto-preferences",
+                    "children":
+                                [
+                                     {
+                                        "command": "open_file",
+                                        "args": {"file": "${packages}/Umberto/Main.sublime-menu"},
+                                        "caption": "Configure Menu"
+                                    },
+                                    { "caption": "-" },
+                                      {
+                                        "command": "open_file",
+                                        "args": {"file": "${packages}/Umberto/Umberto.sublime-settings"},
+                                        "caption": "Settings | Default"
+                                    },
+                                    {
+                                        "command": "open_file",
+                                        "args": {"file": "${packages}/User/Umberto.sublime-settings"},
+                                        "caption": "Settings | User"
+                                    },
+                                    { "caption": "-" },
+                                     {
+                                        "command": "open_file",
+                                        "args": {
+                                            "file": "${packages}/Umberto/Default (Windows).sublime-keymap",
+                                            "platform": "Windows"
+                                        },
+                                        "caption": "Key Bindings | Default"
+                                       },
+                                       {
+                                        "command": "open_file",
+                                        "args": {
+                                            "file": "${packages}/User/Default (Windows).sublime-keymap",
+                                            "platform": "Windows"
+                                        },
+                                        "caption": "Key Bindings | User"
+                                        }
+                                ]
+
+                }
+            ]
+        }
+]
