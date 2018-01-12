@@ -10,6 +10,7 @@ OUTSTANDING ISSUES AND DESIRED FIXES
 - make pages bigger (e.g. A4 size) rather than index card sized. The index card analogy is cute but not relevant and sometimes makes it hard to display image. Web page size is perfect, which is essentially A4 width but maybe longer. Don't use variable page sizes because that just makes things messy. Using A4 also makes it easier to export for other people to read.
 - remove individual card types. Just use tags (max. 5 per card)
 - working PDF reader link mechanism - current one fails
+- replace descriptive file names (e.g. ob.Magnetometry) with generic codes (e.g. ob.12345). Title of document can still be searched in the sublime quickpanel
 
 
 
